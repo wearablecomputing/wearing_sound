@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 643.0, 310.0, 1112.0, 967.0 ],
+		"rect" : [ 832.0, 249.0, 1102.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1112.0, 941.0 ],
+						"rect" : [ 0.0, 26.0, 1102.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -378,7 +378,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 643.0, 336.0, 1112.0, 941.0 ],
+						"rect" : [ 0.0, 26.0, 1102.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -531,7 +531,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1112.0, 941.0 ],
+						"rect" : [ 832.0, 275.0, 1102.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -578,17 +578,6 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 17.0, 17.0, 476.0, 152.0 ],
 									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-45",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 844.0, 897.382397413253784, 19.0, 20.0 ],
-									"text" : " "
 								}
 
 							}
@@ -754,6 +743,14 @@
 			"obj-10::obj-1::obj-90" : [ "Pitch Shift[1]", "Pitch Shift", 0 ],
 			"obj-8::obj-1::obj-1129" : [ "umenu", "umenu", 0 ],
 			"obj-8::obj-1::obj-17" : [ "number[6]", "number[3]", 0 ],
+			"obj-8::obj-1::obj-35" : [ "live.text[11]", "live.text", 0 ],
+			"obj-8::obj-1::obj-38" : [ "live.text[13]", "live.text", 0 ],
+			"obj-8::obj-1::obj-39" : [ "live.text[10]", "live.text", 0 ],
+			"obj-8::obj-1::obj-41" : [ "live.text[9]", "live.text", 0 ],
+			"obj-8::obj-1::obj-42" : [ "live.text[16]", "live.text", 0 ],
+			"obj-8::obj-1::obj-43" : [ "live.text[15]", "live.text", 0 ],
+			"obj-8::obj-1::obj-44" : [ "live.text[14]", "live.text", 0 ],
+			"obj-8::obj-1::obj-45" : [ "live.text[12]", "live.text", 0 ],
 			"obj-8::obj-1::obj-70" : [ "live.toggle[4]", "live.toggle", 0 ],
 			"obj-9::obj-1::obj-102" : [ "multislider[36]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-103" : [ "multislider[37]", "multislider[1]", 0 ],
@@ -806,6 +803,54 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-8::obj-1::obj-35" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.text[11]"
+				}
+,
+				"obj-8::obj-1::obj-38" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-8::obj-1::obj-39" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-8::obj-1::obj-41" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-8::obj-1::obj-42" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.text[16]"
+				}
+,
+				"obj-8::obj-1::obj-43" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.text[15]"
+				}
+,
+				"obj-8::obj-1::obj-44" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-8::obj-1::obj-45" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.text[12]"
+				}
+,
 				"obj-8::obj-1::obj-70" : 				{
 					"parameter_longname" : "live.toggle[4]"
 				}
@@ -893,15 +938,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "rapidmax.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
 				"type" : "iLaX"
 			}
 , 			{
