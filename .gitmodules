@@ -1,0 +1,6 @@
+[submodule "Max/Packages/GIMLeT"]
+	path = Max/Packages/GIMLeT
+	url = https://github.com/federicoVisi/GIMLeT
+[submodule "Max/Packages/modosc"]
+	path = Max/Packages/modosc
+	url = https://github.com/motiondescriptors/modosc
