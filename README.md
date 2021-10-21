@@ -1,5 +1,6 @@
 # Wearing Sound
 Repository for the Wearing Sound course at the Universität der Künste Berlin
+https://design.udk-berlin.de/lehrangebot/wearingsound
 
 ## Installation
 1. Install Arduino IDE: https://www.arduino.cc/en/software 
