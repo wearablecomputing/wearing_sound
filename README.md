@@ -2,6 +2,9 @@
 Repository for the Wearing Sound course at the Universität der Künste Berlin
 https://design.udk-berlin.de/lehrangebot/wearingsound
 
+The **Wiki** is 👉[here](https://github.com/federicoVisi/wearing_sound/wiki)
+**Discussions** and **Q&As** are 👉[here](https://github.com/federicoVisi/wearing_sound/discussions)
+
 ## Installation
 1. Install Arduino IDE: https://www.arduino.cc/en/software 
 2. Install Max: https://cycling74.com/downloads
