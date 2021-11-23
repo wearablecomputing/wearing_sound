@@ -1,15 +1,13 @@
 /*
-  AnalogReadSerial
+  Read_all_sensors
 
-  Reads an analog input on pin 0, prints the result to the Serial Monitor.
-  Graphical representation is available using Serial Plotter (Tools > Serial Plotter menu).
-  Attach the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.
+  Reads A0-A5 and D2-D9.
 
-  This example code is in the public domain.
+  This example code is edited from one available in the public domain. http://www.arduino.cc/en/Tutorial/AnalogReadSerial
 
-  http://www.arduino.cc/en/Tutorial/AnalogReadSerial
-
-  Edited by Berit Greinke on 5 Nov 2021 to read 6 analog and 4 digital sensors
+  Edited by Berit Greinke on 23 Nov 2021.
+  
+  Upload and then close Arduino. Sensors can now be read in Max.
 */
 
 // the setup routine runs once when you press reset:
