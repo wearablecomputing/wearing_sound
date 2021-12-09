@@ -8,6 +8,7 @@ https://design.udk-berlin.de/lehrangebot/wearingsound
 3. Open the Max Package Manager: *File > Show Package Manger*, then search and install the *odot* package.
 4. Install GitHub Desktop: https://desktop.github.com
 5. Clone this repository: in GitHub Desktop go to *File > Clone Repository…* ; click on the *URL* tab; paste `https://github.com/federicoVisi/wearing_sound` and click on *Clone*.
+6. Add the folder in which you have cloned this repository to your Max search path: in Max *Options > File Preferences...* then hit "+", click on the "choose" button and open the `wearing_sound` folder on your computer hard drive.
 
 ---
 
