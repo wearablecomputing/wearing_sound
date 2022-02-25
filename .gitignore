@@ -1,1 +1,4 @@
 .DS_Store
+Arduino/Read_1dig1an_sensors/Read_1dig1an_sensors.ino
+Arduino/Read_all_sensors/Read_all_sensors.ino
+Arduino/ReadAnalogAll_toMax/ReadAnalogAll_toMax.ino
