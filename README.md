@@ -27,3 +27,6 @@ The **Wiki** is 👉[here](https://github.com/federicoVisi/wearing_sound/wiki)
 3. Beginner/Intermediate web tutorials from Darwin Grosse / 20 Objects: http://darwingrosse.com/20Objects/index.html
 4. Intermediate/Advanced video tutorial from Sam Tarakajian: https://www.youtube.com/playlist?list=PLD45EDA6F67827497
 5. For those interested in building neural networks from scratch in Max: https://www.youtube.com/playlist?list=PLnXdT5joUcb1GhPEQizT7NjyPzAM0Y46I
+
+## Wearing Sound Projects: online archive
+https://federicovisi.github.io/wearing_sound_projects/
