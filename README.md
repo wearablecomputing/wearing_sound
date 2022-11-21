@@ -20,3 +20,13 @@ The **Wiki** is 👉[here](https://github.com/federicoVisi/wearing_sound/wiki)
 ## GIMLeT Video Tutorials
 1. Installation and linear regression with artifical neural networks: https://youtu.be/Dace1sHy1IM
 2. Gesture following with PoseNet and GVF: https://youtu.be/GoNqiCvVgoY
+
+## Max Tutorials
+1. Kadenze Max MSP Programming Course: Structuring Interactive Software for Digital Arts: https://www.kadenze.com/courses/max-msp-programming-course-structuring-interactive-software-for-digital-arts/info
+2. Beginner video tutorials from Mari Kimura: https://www.youtube.com/playlist?list=PLQEYdqVx2_gN6nJ9UiltBO43eX-X3UF6P
+3. Beginner/Intermediate web tutorials from Darwin Grosse / 20 Objects: http://darwingrosse.com/20Objects/index.html
+4. Intermediate/Advanced video tutorial from Sam Tarakajian: https://www.youtube.com/playlist?list=PLD45EDA6F67827497
+5. For those interested in building neural networks from scratch in Max: https://www.youtube.com/playlist?list=PLnXdT5joUcb1GhPEQizT7NjyPzAM0Y46I
+
+## Wearing Sound Projects: online archive
+https://federicovisi.github.io/wearing_sound_projects/
