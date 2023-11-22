@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1299.0, 905.0 ],
+		"rect" : [ 34.0, 76.0, 1433.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "FullPacket" ],
-					"patching_rect" : [ 232.751515359878567, 589.79918006896969, 166.0, 22.0 ],
-					"text" : "o.route /a1 /a2 /a3 /a4 /a6 /a7"
+					"patching_rect" : [ 232.751515359878567, 589.79918006896969, 182.0, 22.0 ],
+					"text" : "o.route /in1 /in2 /in3 /in4 /in5 /in6"
 				}
 
 			}
