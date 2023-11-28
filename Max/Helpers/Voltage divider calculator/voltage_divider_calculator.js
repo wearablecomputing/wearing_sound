@@ -3,6 +3,8 @@ var R_MIN = 0;
 var R_MAX = 0;
 var VCC = 3.3; // or 5.0, depending on your needs
 
+var resistorList = [100, 220, 330, 470, 680, 1000, 2200, 3300, 4700, 10000, 22000, 47000, 100000, 330000, 470000, 680000, 1000000, 1200000, 1500000, 2000000, 2400000, 3000000];
+
 // Custom log10 function
 function log10(val) {
     return Math.log(val) / Math.log(10);
@@ -42,30 +44,15 @@ function resistorToColorBandsRGB(resistorValue) {
 }
 
 // Function to set R_MIN
-function setRMin(min) {
-    R_MIN = min;
+function setRMin(minVal) {
+    R_MIN = minVal;
 }
 
 // Function to set R_MAX
-function setRMax(max) {
-    R_MAX = max;
+function setRMax(maxVal) {
+    R_MAX = maxVal;
 }
 
-// Function to find the nearest resistor value from the list
-function findNearestResistor(resistor, resistorList) {
-    var nearest = resistorList[0];
-    var minDiff = Math.abs(resistor - nearest);
-
-    for (var i = 1; i < resistorList.length; i++) {
-        var diff = Math.abs(resistor - resistorList[i]);
-        if (diff < minDiff) {
-            minDiff = diff;
-            nearest = resistorList[i];
-        }
-    }
-
-    return nearest;
-}
 
 // Function to find the optimal resistor
 function findOptimalResistor() {
@@ -99,6 +86,9 @@ function findOptimalResistor() {
     for (var i = 0; i < colorBandsRGB.length; i++) {
         outlet(i + 2, colorBandsRGB[i].join(" "));
     }
+
+    setRMin(0);
+    setRMax(0);
 }
 
 // Function to find the nearest resistor value from the list
@@ -148,17 +138,6 @@ function resistorToColorBandsRGB(resistorValue) {
 
     return bands;
 }
-
-// Function to set R_MIN
-function setRMin(min) {
-    R_MIN = min;
-}
-
-// Function to set R_MAX
-function setRMax(max) {
-    R_MAX = max;
-}
-
 
 // Set up inlets/outlets
 inlets = 2;

@@ -1,0 +1,2 @@
+# Uploading the video
+If your video is too big to be uploaded on GitHub, uploaded it on your favourite cloud storage service (e.g. Dropbox, Box, iCloud, Google Drive, OneDrive, UdK’s Nextcloud, etc.) and add the download link in this folder in a text file. 
