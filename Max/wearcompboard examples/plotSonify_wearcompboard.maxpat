@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "FullPacket" ],
-					"patching_rect" : [ 10.0, 494.899999916553497, 114.0, 22.0 ],
-					"text" : "o.route /in0 /in1 /in2"
+					"patching_rect" : [ 10.0, 494.899999916553497, 106.0, 22.0 ],
+					"text" : "o.route /a0 /a1 /a2"
 				}
 
 			}
@@ -7796,7 +7796,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
-					"midpoints" : [ 82.833333333333343, 526.899999916553497, 328.166666666666629, 526.899999916553497, 328.166666666666629, 95.116504907608032, 553.499999999999886, 95.116504907608032 ],
+					"midpoints" : [ 77.5, 526.899999916553497, 328.166666666666629, 526.899999916553497, 328.166666666666629, 95.116504907608032, 553.499999999999886, 95.116504907608032 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -7804,7 +7804,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 51.166666666666671, 526.899999916553497, 314.333333333333258, 526.899999916553497, 314.333333333333258, 95.116504907608032, 453.499999999999886, 95.116504907608032 ],
+					"midpoints" : [ 48.5, 526.899999916553497, 314.333333333333258, 526.899999916553497, 314.333333333333258, 95.116504907608032, 453.499999999999886, 95.116504907608032 ],
 					"order" : 0,
 					"source" : [ "obj-4", 1 ]
 				}
@@ -8024,14 +8024,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "GIMLeT.wearcompboard.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
-				"patcherrelativepath" : "../../../Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/GIMLeT/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TR-909Kick.wav",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/Media",
-				"patcherrelativepath" : "../../../Max 8/Packages/GIMLeT/Media",
+				"patcherrelativepath" : "../../../../Max 8/Packages/GIMLeT/Media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -8058,7 +8058,7 @@
 , 			{
 				"name" : "o.speedlim.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
-				"patcherrelativepath" : "../../../Max 8/Packages/GIMLeT/patchers/abstractions/odot",
+				"patcherrelativepath" : "../../../../Max 8/Packages/GIMLeT/patchers/abstractions/odot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
