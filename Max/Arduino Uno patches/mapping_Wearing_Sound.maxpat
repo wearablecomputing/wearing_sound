@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 34.0, 100.0, 1116.0, 681.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "FullPacket" ],
+					"patching_rect" : [ 10.384615384615387, 262.0, 166.0, 22.0 ],
+					"text" : "o.route /a0 /a1 /a2 /a3 /a6 /a7"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"candicane2" : [ 0.145098, 0.203922, 0.356863, 1.0 ],
 					"candicane3" : [ 0.290196, 0.411765, 0.713726, 1.0 ],
@@ -70,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 666.833353161811829, 389.333344876766205, 50.0, 49.0 ],
-					"text" : "0.034 0.07 0.102"
+					"text" : "0.376 0.378 0.336"
 				}
 
 			}
@@ -83,7 +95,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 665.333353161811829, 325.749999761581421, 55.0, 35.0 ],
-					"text" : "34 70 102"
+					"text" : "376 378 336"
 				}
 
 			}
@@ -150,7 +162,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.034, 0.07, 0.102 ],
+					"bgcolor" : [ 0.376, 0.378, 0.336 ],
 					"border" : 1,
 					"id" : "obj-16",
 					"maxclass" : "panel",
@@ -187,7 +199,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 872.300000131130219, 367.899999916553497, 138.0, 23.0 ],
-					"text" : "0.034 0.07 0.102"
+					"text" : "0.376 0.378 0.336"
 				}
 
 			}
@@ -392,12 +404,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "receive_from_arduino_all.maxpat",
+					"name" : "GIMLeT.arduino.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 14,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 10.384615384615387, 86.0, 663.999999999999886, 190.497785807807929 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.384615384615387, 89.0, 471.999999999999886, 155.497785807807929 ],
 					"viewvisibility" : 1
 				}
 
@@ -495,16 +507,16 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"order" : 3,
-					"source" : [ "obj-20", 0 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 19.884615384615387, 286.497785807807929, 724.342307757872732, 286.497785807807929, 724.342307757872732, 86.248892903903993, 766.800000131130219, 86.248892903903993 ],
+					"midpoints" : [ 19.884615384615387, 308.497785807807929, 724.342307757872732, 308.497785807807929, 724.342307757872732, 86.248892903903993, 766.800000131130219, 86.248892903903993 ],
 					"order" : 0,
-					"source" : [ "obj-20", 0 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -512,7 +524,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"order" : 1,
-					"source" : [ "obj-20", 1 ]
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}
@@ -520,21 +532,21 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"order" : 1,
-					"source" : [ "obj-20", 0 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 2 ],
-					"source" : [ "obj-20", 3 ]
+					"source" : [ "obj-2", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
-					"source" : [ "obj-20", 2 ]
+					"source" : [ "obj-2", 2 ]
 				}
 
 			}
@@ -542,7 +554,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"order" : 0,
-					"source" : [ "obj-20", 1 ]
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}
@@ -550,6 +562,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"order" : 2,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -677,20 +696,15 @@
 		"parameters" : 		{
 			"obj-10" : [ "flonum", "flonum", 0 ],
 			"obj-20::obj-1129" : [ "umenu", "umenu", 0 ],
-			"obj-20::obj-21" : [ "live.text[15]", "live.text", 0 ],
-			"obj-20::obj-22" : [ "live.text[16]", "live.text", 0 ],
+			"obj-20::obj-17" : [ "number[6]", "number[3]", 0 ],
 			"obj-20::obj-35" : [ "live.text[11]", "live.text", 0 ],
 			"obj-20::obj-38" : [ "live.text[13]", "live.text", 0 ],
 			"obj-20::obj-39" : [ "live.text[10]", "live.text", 0 ],
 			"obj-20::obj-41" : [ "live.text[9]", "live.text", 0 ],
-			"obj-20::obj-51" : [ "live.text[1]", "live.text", 0 ],
-			"obj-20::obj-52" : [ "live.text[2]", "live.text", 0 ],
-			"obj-20::obj-53" : [ "live.text[3]", "live.text", 0 ],
-			"obj-20::obj-54" : [ "live.text[4]", "live.text", 0 ],
-			"obj-20::obj-55" : [ "live.text[5]", "live.text", 0 ],
-			"obj-20::obj-56" : [ "live.text[6]", "live.text", 0 ],
-			"obj-20::obj-58" : [ "live.text[17]", "live.text", 0 ],
-			"obj-20::obj-59" : [ "live.text[18]", "live.text", 0 ],
+			"obj-20::obj-42" : [ "live.text[16]", "live.text", 0 ],
+			"obj-20::obj-43" : [ "live.text[15]", "live.text", 0 ],
+			"obj-20::obj-44" : [ "live.text[14]", "live.text", 0 ],
+			"obj-20::obj-45" : [ "live.text[12]", "live.text", 0 ],
 			"obj-20::obj-70" : [ "live.toggle[3]", "live.toggle", 0 ],
 			"obj-27" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
@@ -698,22 +712,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-20::obj-21" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[15]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-20::obj-22" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.text[16]",
-					"parameter_modmode" : 0,
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
 				"obj-20::obj-35" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.text[11]",
@@ -745,6 +743,10 @@
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
+,
+				"obj-20::obj-70" : 				{
+					"parameter_longname" : "live.toggle[3]"
+				}
 
 			}
 ,
@@ -752,11 +754,34 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "receive_from_arduino_all.maxpat",
-				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/wearing_sound/Max",
-				"patcherrelativepath" : ".",
+				"name" : "GIMLeT.arduino.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/GIMLeT/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "Gimlet_logo_solo.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/Media",
+				"patcherrelativepath" : "../../../../Max 8/Packages/GIMLeT/Media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
