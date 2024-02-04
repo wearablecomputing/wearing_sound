@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1501.0, 921.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "GIMLeT.wearcompboard.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 1315.0, 61.0, 286.0, 395.0 ],
+					"varname" : "GIMLeT.wearcompboard",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 569.230735301971436, 270.272546291351318, 243.589738011360168, 20.0 ],
+					"patching_rect" : [ 433.584216594696045, 264.828322978019742, 243.589738011360168, 20.0 ],
 					"text" : "put BinauralDecoder in your plug-in folder"
 				}
 
@@ -57,7 +79,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 569.230735301971436, 216.666653752326965, 244.0, 29.0 ],
+					"patching_rect" : [ 433.584216594696045, 211.828322978019742, 244.0, 29.0 ],
 					"text" : "PLUG-IN USED"
 				}
 
@@ -68,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 569.230735301971436, 248.717933893203735, 243.589738011360168, 20.0 ],
+					"patching_rect" : [ 433.584216594696045, 243.828322978019742, 243.589738011360168, 20.0 ],
 					"text" : "https://plugins.iem.at/download/"
 				}
 
@@ -80,10 +102,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 331.246306836605072, 386.661651344299344, 150.0, 34.0 ],
+					"patching_rect" : [ 331.246306836605072, 386.661651344299344, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 696.511638700962067, 241.025626659393311, 150.0, 34.0 ],
+					"presentation_rect" : [ 696.511638700962067, 241.025626659393311, 150.0, 33.0 ],
 					"text" : "ambisonics patch has speaker settings for BOL II"
 				}
 
@@ -95,10 +117,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 685.092439591884613, 670.930224180221558, 150.0, 48.0 ],
+					"patching_rect" : [ 685.092439591884613, 670.930224180221558, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 696.511638700962067, 286.046516060829163, 150.0, 48.0 ],
+					"presentation_rect" : [ 696.511638700962067, 286.046516060829163, 150.0, 47.0 ],
 					"text" : "when using binaural put ambisonics volume to minimum and vice versa"
 				}
 
@@ -194,7 +216,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 883.083333015441895, 530.792679309844971, 48.0, 22.0 ],
+					"patching_rect" : [ 766.0, 462.828322978019742, 48.0, 22.0 ],
 					"text" : "pak f f f"
 				}
 
@@ -215,7 +237,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 41.047619104385376, 452.34430085659028, 636.536597490310669, 330.439029216766357 ],
+					"patching_rect" : [ 41.047619104385376, 452.34430085659028, 636.126335501670837, 320.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 41.047619104385376, 213.444856097698221, 644.62170347571373, 330.439029216766357 ],
 					"viewvisibility" : 1
@@ -228,7 +250,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.990146545263315, 995.913528680801392, 45.0, 45.0 ],
+					"patching_rect" : [ 41.047619104385376, 843.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 317.0450715101681, 582.909902691841125, 45.0, 45.0 ]
 				}
@@ -242,7 +264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.49724280834198, 17.0, 521.666664123535156, 34.0 ],
+					"patching_rect" : [ 37.49724280834198, 17.0, 521.666664123535156, 33.0 ],
 					"text" : "Sensor ML ambisonics & binaural example"
 				}
 
@@ -263,7 +285,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1072.826911449432373, 594.177589149475125, 862.0, 479.0 ],
+					"patching_rect" : [ 948.0, 529.0, 862.0, 479.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -285,28 +307,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1086.929474711418152, 209.385178203582768, 388.0, 241.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "violin", 5001, 6001 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-23",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "GIMLeT.arduino.Nano33IoT.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1723.059228479862213, 54.153852343559265, 282.004039168357849, 301.0 ],
+					"patching_rect" : [ 766.0, 173.828322978019742, 388.0, 241.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -471,6 +472,30 @@
 			"obj-1::obj-27" : [ "gswitch2[13]", "gswitch2[13]", 0 ],
 			"obj-1::obj-28" : [ "live.text[81]", "live.text", 0 ],
 			"obj-1::obj-60" : [ "gswitch2[14]", "gswitch2[40]", 0 ],
+			"obj-2::obj-1" : [ "live.text[20]", "live.text", 0 ],
+			"obj-2::obj-12" : [ "number[14]", "number[14]", 0 ],
+			"obj-2::obj-17" : [ "number[34]", "number[3]", 0 ],
+			"obj-2::obj-18" : [ "number[22]", "number[14]", 0 ],
+			"obj-2::obj-21" : [ "live.text[12]", "live.text", 0 ],
+			"obj-2::obj-33" : [ "live.text[21]", "live.text", 0 ],
+			"obj-2::obj-35" : [ "live.text[27]", "live.text", 0 ],
+			"obj-2::obj-36" : [ "number[4]", "number[14]", 0 ],
+			"obj-2::obj-38" : [ "live.text[26]", "live.text", 0 ],
+			"obj-2::obj-39" : [ "live.text[8]", "live.text", 0 ],
+			"obj-2::obj-41" : [ "live.text[7]", "live.text", 0 ],
+			"obj-2::obj-42" : [ "live.text[25]", "live.text", 0 ],
+			"obj-2::obj-43" : [ "live.text[24]", "live.text", 0 ],
+			"obj-2::obj-44" : [ "live.text[23]", "live.text", 0 ],
+			"obj-2::obj-45" : [ "live.text[22]", "live.text", 0 ],
+			"obj-2::obj-46" : [ "number[24]", "number[3]", 0 ],
+			"obj-2::obj-50" : [ "number[3]", "number[14]", 0 ],
+			"obj-2::obj-53" : [ "live.text[19]", "live.text", 0 ],
+			"obj-2::obj-57" : [ "number[2]", "number[14]", 0 ],
+			"obj-2::obj-59" : [ "number[5]", "number[14]", 0 ],
+			"obj-2::obj-67" : [ "number[35]", "number[14]", 0 ],
+			"obj-2::obj-88" : [ "number[21]", "number[14]", 0 ],
+			"obj-2::obj-9" : [ "number[6]", "number[14]", 0 ],
+			"obj-2::obj-95" : [ "number[7]", "number[14]", 0 ],
 			"obj-5::obj-102" : [ "multislider[68]", "multislider[1]", 0 ],
 			"obj-5::obj-103" : [ "multislider[61]", "multislider[1]", 0 ],
 			"obj-5::obj-106" : [ "multislider[57]", "multislider[1]", 0 ],
@@ -619,13 +644,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "BinauralDecoder.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "FemVoice.aif",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/samples",
 				"type" : "AIFF",
@@ -633,48 +651,55 @@
 			}
 , 			{
 				"name" : "GIMLeT.ambi.MLhelper.maxpat",
-				"bootpath" : "~/Desktop/ISS/interwoven-sound-spaces/Max/modules/ambisonics",
-				"patcherrelativepath" : "../ISS/interwoven-sound-spaces/Max/modules/ambisonics",
+				"bootpath" : "~/Documents/git/wearing_sound/Max/Helpers/AmbisonicsBinaural",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.ml.ann.maxpat",
-				"bootpath" : "~/Desktop/ISS/GIMLeT/patchers",
-				"patcherrelativepath" : "../ISS/GIMLeT/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/GIMLeT/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GIMLeT.wearcompboard.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/GIMLeT/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/Desktop/ISS/GIMLeT/Media",
-				"patcherrelativepath" : "../ISS/GIMLeT/Media",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/Media",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/GIMLeT/Media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ambidecode~.mxe64",
-				"type" : "mx64"
+				"name" : "ambidecode~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ambiencode~.mxe64",
-				"type" : "mx64"
+				"name" : "ambiencode~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ambimonitor.mxe64",
-				"type" : "mx64"
+				"name" : "ambimonitor.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "autoscale01.maxpat",
-				"bootpath" : "~/Desktop/ISS/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../ISS/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bow_saltando.mp3",
 				"bootpath" : "~/Documents/Max 8/Packages/ICST Ambisonics/media/audio",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/ICST Ambisonics/media/audio",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/ICST Ambisonics/media/audio",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
@@ -686,27 +711,27 @@
 			}
 , 			{
 				"name" : "data-handler-L.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data-handler.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data_oscillator.maxpat",
-				"bootpath" : "~/Desktop/ISS/interwoven-sound-spaces/Max/tests",
-				"patcherrelativepath" : "../ISS/interwoven-sound-spaces/Max/tests",
+				"bootpath" : "~/Documents/git/interwoven-sound-spaces/Max/tests",
+				"patcherrelativepath" : "../../../../interwoven-sound-spaces/Max/tests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "eggcutter.mp3",
 				"bootpath" : "~/Documents/Max 8/Packages/ICST Ambisonics/media/audio",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/ICST Ambisonics/media/audio",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/ICST Ambisonics/media/audio",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
@@ -719,74 +744,81 @@
 , 			{
 				"name" : "framedrum_sliding.mp3",
 				"bootpath" : "~/Documents/Max 8/Packages/ICST Ambisonics/media/audio",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/ICST Ambisonics/media/audio",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/ICST Ambisonics/media/audio",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "metal_reso.mp3",
 				"bootpath" : "~/Documents/Max 8/Packages/ICST Ambisonics/media/audio",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/ICST Ambisonics/media/audio",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/ICST Ambisonics/media/audio",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multisliderRange.maxpat",
-				"bootpath" : "~/Desktop/ISS/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../ISS/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.compose.mxe64",
-				"type" : "mx64"
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.display.mxe64",
-				"type" : "mx64"
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.expr.codebox.mxe64",
-				"type" : "mx64"
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.pack.mxe64",
-				"type" : "mx64"
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.route.mxe64",
-				"type" : "mx64"
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.union.mxe64",
-				"type" : "mx64"
+				"name" : "o.speedlim.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/GIMLeT/patchers/abstractions/odot",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "o.var.mxe64",
-				"type" : "mx64"
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "populateCellBlock.maxpat",
-				"bootpath" : "~/Desktop/ISS/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../ISS/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rapidmax.mxe64",
-				"type" : "mx64"
+				"name" : "rapidmax.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "routeNames.maxpat",
-				"bootpath" : "~/Desktop/ISS/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../ISS/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sample_send.maxpat",
-				"bootpath" : "~/Desktop/ISS/interwoven-sound-spaces/Max/modules/audio",
-				"patcherrelativepath" : "../ISS/interwoven-sound-spaces/Max/modules/audio",
+				"bootpath" : "~/Documents/git/interwoven-sound-spaces/Max/modules/audio",
+				"patcherrelativepath" : "../../../../interwoven-sound-spaces/Max/modules/audio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -798,26 +830,26 @@
 			}
 , 			{
 				"name" : "viewTrainingData.maxpat",
-				"bootpath" : "~/Desktop/ISS/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../ISS/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../../../../Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizzie-datatexconvert.js",
-				"bootpath" : "C74:/packages/vizzie/code",
+				"bootpath" : "C74:/packages/Vizzie/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.minmaxr.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ws_ambisonics.maxpat",
-				"bootpath" : "~/Desktop/ws.ambisonics",
+				"bootpath" : "~/Documents/git/wearing_sound/Max/Helpers/AmbisonicsBinaural",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
