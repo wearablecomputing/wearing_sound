@@ -12,6 +12,8 @@ https://design.udk-berlin.de/lehrangebot/wearingsound
 
 ---
 
+The chat room is 👉[here](https://medienhaus.udk-berlin.de/classroom/#/room/#wearingsound:medienhaus.udk-berlin.de)
+
 The **Wiki** is 👉[here](https://github.com/federicoVisi/wearing_sound/wiki)
 
 **Discussions** and **Q&As** are 👉[here](https://github.com/federicoVisi/wearing_sound/discussions)
