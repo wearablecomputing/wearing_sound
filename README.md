@@ -19,9 +19,8 @@ The **Wiki** is 👉[here](https://github.com/federicoVisi/wearing_sound/wiki)
 **Discussions** and **Q&As** are 👉[here](https://github.com/federicoVisi/wearing_sound/discussions)
 
 ---
-## GIMLeT Video Tutorials
+## GIMLeT Video Tutorial
 1. Installation and linear regression with artifical neural networks: https://youtu.be/Dace1sHy1IM
-2. Gesture following with PoseNet and GVF: https://youtu.be/GoNqiCvVgoY
 
 ## Max Tutorials
 1. Kadenze Max MSP Programming Course: Structuring Interactive Software for Digital Arts: https://www.kadenze.com/courses/max-msp-programming-course-structuring-interactive-software-for-digital-arts/info
