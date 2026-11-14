@@ -16,7 +16,7 @@ The **Wiki** is 👉[here](https://github.com/federicoVisi/wearing_sound/wiki)
 
 **Discussions** and **Q&As** are 👉[here](https://github.com/federicoVisi/wearing_sound/discussions)
 
-A collection of sounds curated by Stratos Bichakis is 👉[here](https://cloud.udk-berlin.de/s/qntWEnEkEMp2x6y)
+A collection of sounds curated by Stratos Bichakis is 👉[here](https://cloud.udk-berlin.de/s/yA3sWmDB2XsZGCe)
 
 ---
 ## GIMLeT Video Tutorial
