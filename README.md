@@ -1,6 +1,5 @@
 # Wearing Sound
 Repository for the Wearing Sound course at the Universität der Künste Berlin
-https://design.udk-berlin.de/lehrangebot/wearingsound
 
 ## Installation
 1. Install Arduino IDE: https://www.arduino.cc/en/software 
@@ -12,9 +11,9 @@ https://design.udk-berlin.de/lehrangebot/wearingsound
 
 ---
 
-The **Wiki** is 👉[here](https://github.com/federicoVisi/wearing_sound/wiki)
+To **flash** the Arduino Nano 33 IoT without Arduino IDE: 👉[flash patch](https://github.com/wearablecomputing/flash/releases/tag/flash_0.2.0-beta.1)
 
-**Discussions** and **Q&As** are 👉[here](https://github.com/federicoVisi/wearing_sound/discussions)
+The **Wiki** is 👉[here](https://github.com/federicoVisi/wearing_sound/wiki)
 
 A collection of sounds curated by Stratos Bichakis is 👉[here](https://cloud.udk-berlin.de/s/yA3sWmDB2XsZGCe)
 
